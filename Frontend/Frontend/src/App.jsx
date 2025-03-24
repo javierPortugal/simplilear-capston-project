@@ -1,5 +1,6 @@
 
 import UserForm from './components/userform'
+import UserList from './components/userlist'
 
 function App() {
  
@@ -7,7 +8,8 @@ function App() {
   return (
     <>
       <div className='container'>
-        <UserForm/>
+        
+        <UserList/>
       </div>
       
     </>
